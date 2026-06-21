@@ -1,5 +1,5 @@
 name: Hello
-on: {}
+on: push
 
 jobs:
   hello:

@@ -6,13 +6,13 @@ jobs:
         runs-on: ubuntu-latest
 
         steps:
-        - name: Clone repo
-        - uses: actions/checkout@v7
+            - name: Clone repo
+            - uses: actions/checkout@v7
 
-        - name: Setup python
-        - uses: actions/setup-python@v6
-          with:
-            python-version: '3.13' 
+            - name: Setup python
+            - uses: actions/setup-python@v6
+            with:
+                python-version: '3.13' 
 
-        - name: Run python script
-          run: python hello.py
+            - name: Run python script
+              run: python hello.py
